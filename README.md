@@ -9,10 +9,10 @@ how to use this starter code:
 4. pipenv install                      # kind of like "npm i"
 5. python3 manage.py runserver         # or whatever your python command is
 
+<hr>
 
-
-
-<summary>Fun fact: how do you fix a python version for a new project?
+<div height="100"></div>
+<summary>Fun fact: how do you use pipenv to set the definitive python version for a certain project (when creating it)?
   <details>
     pipenv install --python 3.10
   </details>
