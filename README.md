@@ -12,8 +12,8 @@ how to use this starter code:
 
 
 
-<details>Fun fact: how do you fix a python version for a new project?
-  <summary>
+<summary>Fun fact: how do you fix a python version for a new project?
+  <details>
     pipenv install --python 3.10
-  </sumary>
-</details>
+  </details>
+</summary>
