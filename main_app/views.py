@@ -14,3 +14,7 @@ def cat_index(request):
   # [{"name": "c1", "breed":"breed1"}, {"name":"c2", "breed":"breed2"}, {}]
   return render(request, 'cats/index.html', {'cats': cats})
 
+def cat_detail(request, cat_id):
+  cat = Cat.objects.get(id=cat_id)
+  print(cat)
+  return render(request, 'cats/detail.html', { 'cat': cat })
